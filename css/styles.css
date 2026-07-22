@@ -1,0 +1,153 @@
+.titulo-centrado {
+  text-align: center;
+}
+.titulo-izquierda {
+    margin-left: 200px; 
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 775px;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    background-color: #ffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #6aaa2f;
+    color: white;
+}
+tbody tr:hover {
+  background-color: #a1afbd;
+}
+footer {
+  background-color: #236405; 
+  color: #f8fafc;            
+  text-align: center;      
+  padding: 20px 0;           
+  margin-top: 50px;         
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #93c5fd;            
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; 
+}
+.contenedor-boton-agregar {
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+  margin-top: 30px; 
+}
+
+#btn-calcular {
+  background-color: #6aaa2f; 
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#btn-calcular:hover {
+  background-color: #6aaa2f;
+}
+
+
+#btn-calcular:active {
+  transform: scale(0.98);
+}
+
+
+.contenedor-resultado {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#texto-resultado {
+  font-size: 22px;
+  color: #1e293b;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;      
+}
+
+
+main {
+  flex: 1; 
+}
+
+#btn-agregar {
+  background-color: #2563eb; 
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#btn-agregar:hover {
+  background-color: #1d4ed8;
+}
+
+
+#btn-agregar:active {
+  transform: scale(0.98);
+}
