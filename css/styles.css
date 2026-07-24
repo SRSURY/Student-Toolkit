@@ -151,3 +151,8 @@ main {
 #btn-agregar:active {
   transform: scale(0.98);
 }
+.cajon-error {
+  border: 2px solid #e74c3c !important; 
+  outline: 2px solid #e74c3c !important;
+  background-color: #fceceb !important;
+}
